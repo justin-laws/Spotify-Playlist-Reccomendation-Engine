@@ -1,1 +1,3 @@
 # Spotify-Playlist-Reccomendation-Engine
+
+Pulls song data from a user’s playlist using the Spotify API and transforms the data into a dataframe that includes attributes for each song, such as tempo, danceability, and valence. The top artists and genres are then displayed along with histograms of the attributes. It then builds a dataframe of potential songs from the related artists. To analyze the similarity of each song, it creates a single vector of the attributes from the user’s playlist and calculates the cosine similarity for each song in the potential playlist. It finally publishes the most similar songs as a playlist in the user’s Spotify library using the API. 
